@@ -272,8 +272,8 @@ public class TestDriver {
       new File(drillOutputDirName).mkdir();
     }
 
-    String templatePath = CWD
-        + "/src/main/resources/plugin-templates/";
+    String templatePath = getClass().getResource("/plugin-templates/").getPath();
+    LOG.info("Template Path : " + templatePath); 
     File[] templateFiles = new File(templatePath).listFiles();
     for (File templateFile : templateFiles) {
       String filename = templateFile.getName();
@@ -324,7 +324,7 @@ public class TestDriver {
           @Override
           public void run() {
             try {
-              Path src = new Path(CWD + "/resources", datasource.src);
+              Path src = new Path(CWD + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR"), datasource.src);
               Path dest = new Path(drillTestData, datasource.dest);
               hdfsCopy(src, dest, false, fsMode);
             } catch (IOException e) {
@@ -375,7 +375,7 @@ public class TestDriver {
 
   private static void runGenerateScript(DataSource datasource) {
     int exitCode = 0;
-    String command = CWD + "/resources/" + datasource.src;
+    String command = CWD + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR") + "/" + datasource.src;
     LOG.info("Running command " + command);
     StringBuilder sb = new StringBuilder();
     try {

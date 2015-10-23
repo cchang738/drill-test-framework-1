@@ -21,6 +21,32 @@
                <target>1.7</target>
             </configuration>
          </plugin>
+         <plugin>
+           <groupId>org.codehaus.mojo</groupId>
+           <artifactId>exec-maven-plugin</artifactId>
+           <version>1.4.0</version>
+           <executions>
+           <execution>
+             <goals>
+               <goal>java</goal>
+             </goals>
+           </execution>
+         </executions>
+         <configuration>
+           <mainClass>org.apache.drill.test.framework.TestDriver</mainClass>
+           <classPathScope>compile</classPathScope>
+           <additionalClasspathElements>
+             <additionalClasspathElement>../resources/</additionalClasspathElement>
+             <additionalClasspathElement>/opt/drill/jars/jdbc-driver/drill-jdbc-all-1.2.0-SNAPSHOT.jar</additionalClasspathElement>
+           </additionalClasspathElements>
+           <systemProperties>
+            <systemProperty>
+               <key>zookeeper.sasl.client</key>
+               <value>false</value>
+             </systemProperty>
+           </systemProperties>
+         </configuration>
+       </plugin>
       </plugins>
    </build>
 </project>

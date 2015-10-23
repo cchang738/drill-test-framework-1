@@ -1,0 +1,1090 @@
+[
+  {
+    "title": "Data Catalog",
+    "identifier": "EBC9DB05EDEA5B0EE043065706812DF81",
+    "description": "Version 1.0",
+    "modified": "2014-05",
+    "publisher": "National Institute of Standards and Technology",
+    "organization": "",
+    "contactPoint": "Information Services Office - Data Services",
+    "mbox": "iso-data@nist.gov",
+    "accessLevel": "public",
+    "keyword": [
+      "catalog"
+    ],
+    "language": ["en"],
+    "dataQuality": true,
+    "bureauCode": [
+      "006:55"
+    ],
+    "programCode": [
+      "006:045"
+    ],
+    "distribution": [
+      {
+        "accessURL": "http://www.nist.gov/data.json",
+        "format": "application/json"
+      }
+    ]
+  },
+   {
+    "title": "NISTTech",
+    "description": "NISTTech is a public database of patented technologies owned by the National Institute of Standards and Technology.",
+    "keyword": [
+      "inventions",
+      "license",
+      "patent",
+      "technology"
+    ],
+    "modified": "2014-02",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Paul Zielinski",
+    "mbox": "paul.zielinski@nist.gov",
+    "identifier": "DOC-1189",
+    "accessLevel": "public",
+    "issued": "2009-11-09",
+    "dataQuality": true,
+    "landingPage": "http://tsapps.nist.gov/techtransfer/",
+    "distribution": [
+      {
+        "accessURL": "http://www.nist.gov/customcf/data/nist_tech.json",
+        "format": "application/json"
+      }
+    ],
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "NIST Available Equipment, Instruments and User Facilities",
+    "description": "The National Institute of Standards and Technology has two user facilities, the Center for Nanoscale Science and Technology and NIST’s Center for Neutron Research. Aside from the equipment available at these two user facilities, there are other equipment and instruments available for research purposes.",
+    "keyword": [
+      "equipment",
+      "instruments",
+      "user facility"
+    ],
+    "modified": "2010-10-22",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Paul Zielinski",
+    "mbox": "tpo@nist.gov",
+    "identifier": "ECBCC1C1300C2ED9E04306570681B10718",
+    "accessLevel": "public",
+	"issued": "2009-04-27", 
+    "dataQuality": true,
+    "landingPage": "http://nist.gov/nist-instruments.cfm",
+   "distribution": [
+      {
+        "accessURL": "http://www.nist.gov/customcf/data/nist_equipment.json",
+        "format": "application/json"
+      }
+    ], "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "language": [
+      "en"
+    ]},
+	{
+    "title": "Chem-BLAST Gateway for PDB",
+    "description": "Chem-BLAST (Chemical Block Layered Alignment of Substructure) is a technique (Prasanna M.D, Vondrasek J, Wlodawer A, Rodriguez H, Bhat T.N. Chemical compound navigator: a web-based Chem-BLAST, chemical taxonomy-based search engine for browsing compounds. Proteins 63(4), 907-917(2006)) was originally developed in the context of the HIV Structural database ( http://xpdb.nist.gov/hivsdb/hivsdb.html and http://bioinfo.nist.gov/SemanticWeb_pr3d/chemblast.do ). Recently we significantly improved this method to extend this it to the ligands found in the PDB. The methods establishes a tree-like relationship between the structural scaffolds involving rings found in the three-letter-codes that denote the lignads of the structures found in the Protein Data Bank by  first establishes a RDF (Resource Description Framework) like relations between the structural scaffolds of the ligands and then organizes them in a database table in the form of XML. Adobe Flex based Web interface is then used to present this information over the Web. Plans are under way to extend this work to non-ring type scaffolds as well. )(from http://xpdb.nist.gov/pdb_chem_blast/help.html)",
+    "keyword": [
+      "Cell-image-data",
+      "Chem-BLAST",
+      "Enabling-scientific-linked-data-by-automation",
+      "Federated-terms-building",
+      "Global-data-integration-challenge-solutions",
+      "Infrastructure-for-semantic-terminology",
+      "Latin-like-root-terminology-for-science",
+      "Machine-friendly-vocabulary",
+      "On-demand-ontology-nuggets",
+      "PDB-ligands",
+      "PubChem-structures",
+      "Re-used-nuggets-of-ontology",
+      "Re-used-scalable-terminology",
+      "Re-used-use-case-friendly-terminology",
+      "Rule-based-linking-of-data",
+      "Rule-based-structural-data-graphs",
+      "Rule-based-vocabulary-building",
+      "Sanskrit-like-root-terminology-for-science",
+      "Structural-resource-for-drug-design",
+      "Thermodynamic-data"
+    ],
+    "modified": "2013-04",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "T.N. Bhat",
+    "mbox": "talapady.bhat@nist.gov",
+    "identifier": "EBC9DB05EDEF5B0EE043065706812DF86",
+    "accessLevel": "public",
+    "dataDictionary": "http://xpdb.nist.gov/pdb_chem_blast/help.html",
+    "license": "License Not Specified",
+    "landingPage": "http://xpdb.nist.gov/chemblast/pdb.html",
+    "distribution": [
+      {
+        "accessURL": "http://xpdb.nist.gov/chemblast/pdb.html",
+        "format": "text/html"
+      }
+    ],
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "Fundamental Physical Constants ",
+    "description": "Internationally recommended values of the fundamental physical constants from the Committee on Data for Science and Technology of the International Council for Science.",
+    "keyword": [
+      "Avogadro constant",
+      "Boltzmann constant",
+      "Faraday constant",
+      "Newtonian constant of gravitation",
+      "Planck constant",
+      "Planck constant over 2 pi",
+      "Rydberg constant",
+      "Stefan-Boltzmann constant",
+      "atomic mass constant",
+      "conductance quantum",
+      "electric constant",
+      "electron mass",
+      "electron volt",
+      "elementary charge",
+      "fine-structure constant",
+      "inverse fine-structure constant",
+      "magnetic constant",
+      "magnetic flux quantum",
+      "molar gas constant",
+      "proton mass",
+      "proton-electron mass ratio",
+      "speed of light in vacuum"
+    ],
+    "modified": "2010",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Peter J. Mohr",
+    "mbox": "mohr@nist.gov",
+    "identifier": "EBC9DB05EDEB5B0EE043065706812DF82",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+	"dataQuality": true,
+    "landingPage": "http://physics.nist.gov/cuu/Constants/",
+    "distribution": [
+      {
+        "accessURL": "http://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+        "format": "text/plain"
+      }
+    ],
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "Interatomic Potentials Repository",
+    "description": "This repository provides a source for interatomic potentials (force fields) and evaluation tools to help researchers obtain interatomic models and judge their quality and applicability. Users are encouraged to download interatomic potentials, and developers are welcome to contribute potentials for inclusion. The potentials provided have been submitted or vetted by their developers and appropriate references are provided. While many potentials are metallic and of the embedded-atom (EAM) form, other classes of potentials (e.g., MEAM, Reax, etc.) and materials are welcome. These could include semiconductors, polymers, and/or materials like carbides.  If you do not find the element or alloy potential you are seeking, send an email to Chandler.Becker@nist.gov, and we may be able to help. This site reflects what has been submitted, so it is not a complete survey of interatomic potentials for any or all systems. Here is a list of recent requests for potentials. http://www.ctcms.nist.gov/potentials/requests.html If you find this website useful, including using potentials you downloaded, please cite this project in addition to the proper interatomic potential reference: C.A. Becker,'Atomistic simulations for engineering: Potentials and challenges,' in Tools, Models, Databases and Simulation Tools Developed and Needed to Realize the Vision of ICME, ASM (2011). http://www.ctcms.nist.gov/potentials Please note that, due to the wide range of interatomic potential functions and formats, It is the user's responsibility to check that the interatomic potentials produce expected results.",
+    "keyword": [
+      "force fields",
+      "integrated computational materials engineering",
+      "interatomic potentials",
+      "materials genome initiative",
+      "materials modeling",
+      "materials science",
+      "molecular dynamics",
+      "molecular simulation"
+    ],
+    "modified": "2014-03-05",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Chandler Becker",
+    "mbox": "chandler.becker@nist.gov",
+    "identifier": "EBC9DB05EDF05B0EE043065706812DF87",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+    "landingPage": "http://www.ctcms.nist.gov/potentials",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "Atomic Spectra Database",
+    "description": "This database provides access and search capability for NIST critically evaluated data on atomic energy levels, wavelengths, and transition probabilities that are reasonably up-to-date. The Atomic Spectroscopy Data Center has carried out these critical compilations. The Data Center is located in the Physical Measurement Laboratory at theNational Institute of Standards and Technology (NIST).",
+    "keyword": [
+      "Atomic",
+      "Atomic Spectroscopy",
+      "Radon",
+      "actinium",
+      "aluminium",
+      "aluminum",
+      "americium",
+      "antimony",
+      "argon",
+      "arsenic",
+      "astatine",
+      "atom",
+      "atomic physics",
+      "atomic property",
+      "atomic-ions",
+      "barium",
+      "berkelium",
+      "beryllium",
+      "bismuth",
+      "bohrium",
+      "boron",
+      "bromine",
+      "cadmium",
+      "calcium",
+      "californium",
+      "carbon",
+      "cerium",
+      "cesium",
+      "chlorine",
+      "chromium",
+      "cobalt",
+      "columbium",
+      "copernicium",
+      "copper",
+      "curium",
+      "darmstadtium",
+      "database",
+      "deuterium",
+      "doubly-charged",
+      "dubnium",
+      "dysprosium",
+      "einsteinium",
+      "element",
+      "energy levels",
+      "erbium",
+      "europium",
+      "fermium",
+      "flerovium",
+      "fluorine",
+      "francium",
+      "gadolinium",
+      "gallium",
+      "germanium",
+      "gold",
+      "ground states",
+      "hafnium",
+      "hassium",
+      "helium",
+      "holmium",
+      "hydrogen",
+      "indium",
+      "iodine",
+      "ionization potentials",
+      "ionization-energies",
+      "ionization-limits",
+      "ionized-atoms",
+      "iridium",
+      "iron",
+      "krypton",
+      "kurchatovium",
+      "lanthanum",
+      "lawrencium",
+      "lead",
+      "lithium",
+      "livermorium",
+      "lutetium",
+      "magnesium",
+      "manganese",
+      "meitnerium",
+      "mendelevium",
+      "mercury",
+      "molybdenum",
+      "multiply-charged",
+      "neodymium",
+      "neon",
+      "neptunium",
+      "neutral",
+      "nickel",
+      "niobium",
+      "nitrogen",
+      "nobelium",
+      "osmium",
+      "oxygen",
+      "palladium",
+      "phosphorus",
+      "platinum",
+      "plutonium",
+      "polonium",
+      "potassium",
+      "praseodymium",
+      "promethium",
+      "protactinium",
+      "quadruply-charged",
+      "radium",
+      "rhenium",
+      "rhodium",
+      "roentgenium",
+      "rubidium",
+      "ruthenium",
+      "rutherfordium",
+      "samarium",
+      "scandium",
+      "seaborgium",
+      "selenium",
+      "silicium",
+      "silicon",
+      "silver",
+      "singly-charged",
+      "sodium",
+      "spectra",
+      "spectral lines",
+      "spectroscopy",
+      "spectrum",
+      "strontium",
+      "sulfur",
+      "sulphur",
+      "tantalum",
+      "technetium",
+      "tellurium",
+      "terbium",
+      "thallium",
+      "thorium",
+      "thulium",
+      "tin",
+      "titanium",
+      "transition probabilities",
+      "triply-charged",
+      "tritium",
+      "tungsten",
+      "ununbium",
+      "ununhexium",
+      "ununoctium",
+      "ununpentium",
+      "ununquadium",
+      "ununseptium",
+      "ununtrium",
+      "unununium",
+      "uranium",
+      "vanadium",
+      "wavelengths",
+      "xenon",
+      "ytterbium",
+      "yttrium",
+      "zinc",
+      "zirconium"
+    ],
+    "modified": "2013-09",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Alexander Kramida",
+    "mbox": "alexander.kramida@nist.gov",
+    "identifier": "EBC9DB05EDEC5B0EE043065706812DF83",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+	"dataQuality": true,
+    "landingPage": "http://www.nist.gov/pml/data/asd.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "NIST Chemical Kinetics Database",
+    "description": "The NIST Chemical Kinetics Database includes essentially all reported kinetics results for thermal gas-phase chemical reactions. The database is designed to be searched for kinetics data based on the specific reactants involved, for reactions resulting in specified products, for all the reactions of a particular species, or for various combinations of these. In addition, the bibliography can be searched by author name or combination of names. The database contains in excess of 38,000 separate reaction records for over 11,700 distinct reactant pairs. These data have been abstracted from over 12,000 papers with literature coverage through early 2000. Rate constant records for a specified reaction are found by searching the Reaction Database. All rate constant records for that reaction are returned, with a link to 'Details' on that record. Each rate constant record contains the following information (as available): Reactants and, if defined, reaction products; Rate parameters: A, n, Ea/R, where k = A* (T/298)**n exp[-(Ea/R)/T], where T is the temperature in Kelvins; Uncertainty in A, n, and Ea/R, if reported; Temperature range of experiment or temperature range of validity of a review or theoretical paper; Pressure range and bulk gas of the experiment; Data type of the record (i.e., experimental, relative rate measurement, theoretical calculation, modeling result, etc.). If the result is a relative rate measurement, then the reaction to which the rate is relative is also given; Experimental procedure, including separate fields for the description of the apparatus, the time resolution of the experiment, and the excitation technique. A majority of contemporary chemical kinetics methods are represented. The Kinetics Database is being expanded to include other resources for the convenience of the users. Presently this includes direct links to the corresponding NIST WebBook page for all substances for which such a link is possible. This is indicated by underling and highlighting the species. The WebBook provides thermodynamic, spectral, and other data on the species. Note that the link to the WebBook is opened as a new frame in your browser.",
+    "keyword": [
+      "NIST chemical kinetics database",
+      "arrhenius equation",
+      "chemical kinetics",
+      "chemical reaction",
+      "kinetics",
+      "kinetics database",
+      "rate coefficient",
+      "rate constant",
+      "reaction",
+      "reaction kinetics",
+      "reaction rate constant"
+    ],
+    "modified": "2013-03",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Tom Allison",
+    "mbox": "thomas.allison@nist.gov",
+    "identifier": "EBC9DB05EDED5B0EE043065706812DF84",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+    "landingPage": "http://kinetics.nist.gov/kinetics/",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "NIST Chemistry WebBook",
+    "description": "The NIST Chemistry WebBook provides users with easy access to chemical and physical property data for chemical species through the internet. The data provided in the site are from collections maintained by the NIST Standard Reference Data Program and outside contributors. Data in the WebBook system are organized by chemical species. The WebBook system allows users to search for chemical species by various means. Once the desired species has been identified, the system will display data for the species.",
+    "keyword": [
+      "IR spectrum",
+      "InChI",
+      "InChIKey",
+      "UV Vis spectrum",
+      "boiling point",
+      "chemical data",
+      "chemical structure",
+      "enthalpy",
+      "entropy",
+      "heat capacity",
+      "heat of formation",
+      "ionization potential",
+      "mass spectrum",
+      "retention index",
+      "thermochemical data",
+      "thermochemistry",
+      "thermodynamic data",
+      "vapor pressure"
+    ],
+    "modified": "2013-04",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Peter Linstrom",
+    "mbox": "peter.linstrom@nist.gov",
+    "identifier": "EBC9DB05EDEE5B0EE043065706812DF85",
+    "accessLevel": "public",
+    "dataDictionary": "http://webbook.nist.gov/chemistry/guide/",
+    "license": "License Not Specified",
+    "landingPage": "http://webbook.nist.gov/chemistry",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "NIST / TRC Web Thermo Tables, Professional Version SRD 203",
+    "description": "This web application provides access to a collection of critically evaluated thermodynamic property data for pure compounds with a primary focus on organics. These data were generated through dynamic data analysis, as implemented in the NIST ThermoData Engine software package. Some critically evaluated data from the historical TRC Thermodynamic Tables archive are included, also. As of May 2012, the Professional Edition contains information on 28,432 compounds and total of 531,486 evaluated data points.",
+    "keyword": [
+      "NIST ThermoData Engine",
+      "critically-evaluated data",
+      "dynamic data evaluation",
+      "organic compounds - thermodynamics",
+      "thermophysical properties"
+    ],
+    "modified": "2012-05",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "Kenneth Kroenlein",
+    "mbox": "kenneth.kroenlein@nist.gov",
+    "identifier": "EBC9DB05EDF45B0EE043065706812DF811",
+    "accessLevel": "restricted public",
+    "accessLevelComment": "Access to WTT - Professional Edition is subscription-based.For more information please visit http://www.nist.gov/srd/nistwebsub3.cfm",
+    "license": "License Not Specified",
+    "landingPage": "http://wtt-pro.nist.gov/wtt-pro/",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ]
+  },
+  {
+    "title": "SRD 100 NIST Simulation of Electron Spectra for Surface Analysis (SESSA)",
+    "description": "SESSA has been designed to facilitate quantitative analyses by Auger electron spectroscopy (AES) and X-ray photoelectron spectroscopy (XPS). The database contains physical data required for quantitative interpretation of an electron spectrum for a specimen with a given composition. Retrieval of relevant data is performed by a small expert system [1-3] that queries the comprehensive databases. A simulation module is also available within SESSA that provides an estimate of peak intensities as well as the energy and angular distribution of the emitted electron flux. The information needed by the expert system to accomplish its task closely matches instrument settings made by an experimenter when actually performing a measurement and is complemented by an initial estimate of the sample composition.",
+    "keyword": [
+      "Auger electron spectroscopy",
+      "Auger-electron",
+      "Auger-electron backscattering factors",
+      "XPS",
+      "cross sections",
+      "elastic scattering",
+      "electron scattering",
+      "electron transport",
+      "electron-impact ionization cross section",
+      "fluorescence yields",
+      "inelastic mean free paths",
+      "inelastic scattering",
+      "photoelectron lineshapes",
+      "photoionization asymmetry parameters",
+      "photoionization cross sections",
+      "surface analysis",
+      "transport cross sections",
+      "x-ray photoelectron spectroscopy"
+    ],
+    "modified": "2011-05",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C1300A2ED9E04306570681B10716",
+    "accessLevel": "restricted public",
+    "accessLevelComment": "Access to SRD 100 is available for a fee. For more information please visit http://www.nist.gov/srd/nist100.cfm",
+    "license": "License Not Specified",
+    "issued": "2005-12",
+    "landingPage": "http://www.nist.gov/srd/nist100.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 137 Property Data Summaries for Oxide Glasses",
+    "description": "The NIST Oxide Glasses Collection has property data on borate base glasses, germanate base glasses, phosphate base glasses and silicate base glasses.",
+    "keyword": [
+      "alumina",
+      "borate base glasses",
+      "ceramics",
+      "chemical properties",
+      "density",
+      "elastic modulus",
+      "flexural strength",
+      "fracture energy",
+      "fracture toughness",
+      "germanate base glasses",
+      "grain size",
+      "lattice parameters",
+      "mechanical properties",
+      "oxide glasses",
+      "phosphate base glasses",
+      "polycrystal",
+      "porosity",
+      "shear modulus",
+      "silicate base glasses",
+      "silicon carbide",
+      "single crystal",
+      "structural properties",
+      "tensile strength",
+      "thermal conductivity",
+      "thermal diffusivity",
+      "thermal expansion",
+      "thermal properties",
+      "titanium diboride",
+      "zirconium dioxide"
+    ],
+    "modified": "2001",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C1300F2ED9E04306570681B10721",
+    "accessLevel": "public",
+    "issued": "2001",
+    "dataQuality": true,
+    "landingPage": "http://www.ceramics.nist.gov/srd/summary/glsmain.htm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 138 Property Data Summaries for Fracture Toughness",
+    "description": "NIST Property Data Summaries for Fracture Toughness provide fracture toughness data on numerous materials.",
+    "keyword": [
+      "ceramics",
+      "fracture energy",
+      "fracture toughness",
+      "grain size",
+      "polycrystal",
+      "porosity",
+      "single crystal"
+    ],
+    "modified": "2001",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130102ED9E04306570681B10722",
+    "accessLevel": "public",
+    "issued": "2001",
+    "dataQuality": true,
+    "landingPage": "http://www.ceramics.nist.gov/srd/summary/ftmain.htm",
+    "reference": "Fracture Toughness Data for Brittle Materials, by R.G. Munro, S.W. Freiman, and T.L. Baker, NISTIR 6153, National Institute of Standards and Technology, 1998",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 139 Phase Diagrams and Computational Thermodynamics - Solder Systems",
+    "description": "Phase Diagrams and Computational Thermodynamics - Solder Systems predicts melting temperatures and freezing ranges of lead-free solders which are used to remove lead-containing components from commercial products. This database also shows the effects of non-equilibrium solidification. Also included is a collection of calculated binary and ternary systems that are relevant to solders.",
+    "keyword": [
+      "materials",
+      "materials science",
+      "measurement",
+      "metallurgy",
+      "phase",
+      "phase diagram",
+      "phase equilibria",
+      "science",
+      "solder",
+      "standards",
+      "technical activities",
+      "thermodynamic"
+    ],
+    "modified": "1990-01",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C1300D2ED9E04306570681B10719",
+    "accessLevel": "public",
+    "dataQuality": true,
+    "landingPage": "http://www.metallurgy.nist.gov/phase/solder/solder.html",
+    "distribution": [
+      {
+        "accessURL": "http://www.metallurgy.nist.gov/phase/solder/solder.tdb",
+        "format": "text/plain"
+      }
+    ],
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 149 NIST High Temperature Superconducting Materials Database",
+    "description": "The NIST High Temperature Superconducting Materials Database (WebHTS) provides evaluated thermal, mechanical, and superconducting property data for oxides and other nonconventional superconductors.",
+    "keyword": [
+      "high-temperature",
+      "high-temperature superconducting materials",
+      "high-temperature superconducting materials database"
+    ],
+    "modified": "2001",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130112ED9E04306570681B10723",
+    "accessLevel": "public",
+    "dataDictionary": "http://www.ceramics.nist.gov/srd/hts/WebHTSHelp.htm",
+    "issued": "2001",
+    "dataQuality": true,
+    "landingPage": "http://www.ceramics.nist.gov/srd/hts/htsquery.htm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 150 NIST Property Data Summaries for Advanced Materials",
+    "description": "Property Data Summaries are topical collections of property values derived from surveys of published data. Thermal, mechanical, structural, and chemical properties are included in the collections.",
+    "keyword": [
+      "Y123 Superconductor",
+      "alumina",
+      "borate base glasses",
+      "ceramics",
+      "chemical properties",
+      "density",
+      "elastic modulus",
+      "flexural strength",
+      "fracture energy",
+      "fracture toughness",
+      "germanate base glasses",
+      "grain size",
+      "lattice parameters",
+      "mechanical properties",
+      "oxide glasses",
+      "phosphate base glasses",
+      "polycrystal",
+      "porosity",
+      "shear modulus",
+      "silicate base glasses",
+      "silicon carbide",
+      "single crystal",
+      "structural properties",
+      "tensile strength",
+      "thermal conductivity",
+      "thermal diffusivity",
+      "thermal expansion",
+      "thermal properties",
+      "titanium diboride",
+      "zirconium dioxide"
+    ],
+    "modified": "2002",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130122ED9E04306570681B10724",
+    "accessLevel": "public",
+    "issued": "2002",
+    "dataQuality": true,
+    "landingPage": "http://www.ceramics.nist.gov/srd/summary/advmatdb.htm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 151 Ceramics WebBook",
+    "description": "The Ceramics WebBook is a gateway to evaluated data, a guide to data centers and sources and a repository for tools and resources for ceramics.",
+    "keyword": [
+      "ceramics",
+      "chemical properties",
+      "electrical properties",
+      "glasses",
+      "high Tc superconductors",
+      "mechanical properties",
+      "physical properties",
+      "structural ceramics",
+      "thermal properties"
+    ],
+    "modified": "2003",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130132ED9E04306570681B10725",
+    "accessLevel": "public",
+    "dataQuality": true,
+    "landingPage": "http://www.ceramics.nist.gov/srd/scd/scdquery.htm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 154 NIST Backscattering Correction Factor Database for Auger Electron Spectroscopy",
+    "description": "This database provides values of backscattering correction factors (BCF) of homogeneous materials for quantitative surface analyses by Auger electron spectroscopy. These BCFs are obtained from Monte Carlo simulations based on two models of electron transport in the material, a simplified model and an advanced model. One assumption for the former model is that the primary-electron beam is unchanged, in intensity, energy or direction, within the information depth for Auger-electron emission. This assumption becomes progressively less useful as the primary energy becomes closer to the core-level ionization energy for the relevant Auger transition or for increasing angles of incidence of the primary electrons.",
+    "keyword": [
+      "Auger electron spectroscopy",
+      "backscattering correction factor",
+      "surface analysis"
+    ],
+    "modified": "2011-02",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C1300B2ED9E04306570681B10717",
+    "accessLevel": "public",
+    "issued": "2011-02",
+    "landingPage": "http://www.nist.gov/srd/nist154.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 20 X-ray Photoelectron Spectroscopy Database XPS ,Version 4.1",
+    "description": "The NIST X-ray Photoelectron Spectroscopy (XPS) Database gives easy access to the energies of many photoelectron and Auger-electron spectral lines.  Resulting from a critical evaluation of the published literature, the database contains over 33,000 line positions, chemical shifts, doublet splittings, and energy separations of photoelectron and Auger-electron lines.  A highly interactive program allows the user to search by element, line type, line energy, and many other variables.  Users can easily identify unknown measured lines by matching to previous measurements.",
+    "keyword": [
+      "Auger electron",
+      "Auger electron spectroscopy",
+      "Auger kinetic energy",
+      "Auger parameter",
+      "ESCA",
+      "X ray photoelectron spectroscopy",
+      "XPS",
+      "doublet separation",
+      "electron spectroscopy for chemical analysis",
+      "material database",
+      "photoelectron",
+      "photoelectron spectroscopy",
+      "photoemission",
+      "surface analysis"
+    ],
+    "modified": "2012-10-10",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130062ED9E04306570681B10712",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+    "issued": "1989-11",
+    "landingPage": "http://srdata.nist.gov/xps/",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 31 Phase Equilibria Diagrams Database",
+    "description": "The Phase Equilibria Diagrams Database contains commentaries and more than 21,000 diagrams for non-organic systems, including those published in all 21 hard-copy volumes produced as part of the ACerS-NIST Phase Equilibria Diagrams Program (formerly titled Phase Diagrams for Ceramists):  Volumes I through XIV (blue books); Annuals 91, 92, 93; High Tc Superconductors I & II; Zirconium & Zirconia Systems; and Electronic Ceramics I.  Materials covered include oxides as well as non-oxide systems such as chalcogenides and pnictides, phosphates, salt systems, and mixed systems of these classes.",
+    "keyword": [
+      "advanced ceramics",
+      "ceramic phase diagrams",
+      "ceramics",
+      "ceramics phase diagrams",
+      "chemical systems",
+      "inorganic compounds",
+      "inorganic materials",
+      "phase diagrams",
+      "phase equilibria",
+      "phase equilibria diagrams",
+      "phase equilibrium diagrams",
+      "semiconductors"
+    ],
+    "modified": "2014",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C1300E2ED9E04306570681B10720",
+    "accessLevel": "restricted public",
+    "accessLevelComment": "Access to SRD 31 is available for a fee. For more information please visit http://nist.gov/srd/nist31.cfm",
+    "dataQuality": true,
+    "landingPage": "http://nist.gov/srd/nist31.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 64 NIST Electron Elastic-Scattering Cross-Section Database",
+    "description": "Knowledge of elastic-scattering effects is important for the development of theoretical models for quantitative analysis by Auger-electron spectroscopy, x-ray photoelectron spectroscopy, electron microprobe analysis, and analytical electron microscopy. The software package is designed to facilitate simulations of electron transport for these and similar applications in which electron energies from 50 eV to 300 keV are utilized.",
+    "keyword": [
+      "Auger electron spectroscopy",
+      "analytical electron microscopy",
+      "cross-section",
+      "elastic scattering",
+      "electron scattering",
+      "electron spectroscopy",
+      "electron transport",
+      "electron-probe microanalysis",
+      "surface analysis",
+      "x-ray photoelectron spectroscopy",
+      "x-ray spectroscopy"
+    ],
+    "modified": "2010-12",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130072ED9E04306570681B10713",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+    "issued": "1996-08",
+    "landingPage": "http://www.nist.gov/srd/nist64.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 71 NIST Electron Inelastic-Mean-Free-Path Database",
+    "description": "This database provides values of electron inelastic mean free paths (IMFPs) for use in quantitative surface analyses by AES and XPS. The database can provide IMFP information from up to three types of sources: calculated IMFPs from experimental optical data for a limited number of materials, IMFPs measured by elastic-peak electron spectroscopy for some elemental solids, and IMFPs from predictive formulae for all materials. The calculated and measured IMFPs were generally reported in journal papers at specified electron energies and these IMFPs were fit with appropriate functions so that IMFPs could be found by interpolation at intermediate energies.",
+    "keyword": [
+      "Auger electron",
+      "Auger electron spectroscopy",
+      "ESCA",
+      "X ray photoelectron spectroscopy",
+      "XPS",
+      "electron spectroscopy for chemical analysis",
+      "inelastic mean free path",
+      "material database",
+      "photoelectron",
+      "photoelectron spectroscopy",
+      "photoemission",
+      "surface analysis"
+    ],
+    "modified": "2010-12",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130082ED9E04306570681B10714",
+    "accessLevel": "public",
+    "license": "License Not Specified",
+    "issued": "1999-09",
+    "landingPage": "http://www.nist.gov/srd/nist71.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 82 NIST Electron Effective Attenuation Length Database",
+    "description": "This database provides values of electron effective attenuation lengths (EALs) in solid elements and compounds at selected electron energies between 50 eV and 2,000 eV. The database was designed mainly to provide EALs (to account for effects of elastic-electron scattering) for applications in surface analysis by Auger-electron spectroscopy (AES) and X-ray photoelectron spectroscopy (XPS).",
+    "keyword": [
+      "Auger electron spectroscopy",
+      "ESCA",
+      "XPS",
+      "depth distribution function",
+      "effective attenuation length",
+      "electron spectroscopy for chemical analysis",
+      "material database",
+      "photoelectron",
+      "photoelectron spectroscopy",
+      "photoemission",
+      "surface analysis",
+      "x-ray photoelectron spectroscopy"
+    ],
+    "modified": "2011-01",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130092ED9E04306570681B10715",
+    "accessLevel": "public",
+    "issued": "2001-06-23",
+    "landingPage": "http://www.nist.gov/srd/nist82.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "Analytical Chemistry"
+    ],
+    "language": [
+      "en"
+    ]
+  },
+  {
+    "title": "SRD 84 FIZ/NIST Inorganic Crystal Structure Database (ICSD)",
+    "description": "The Inorganic Crystal Structure Database (ICSD) is produced cooperatively by the Fachinformationszentrum Karlsruhe(FIZ) and the National Institute of Standards and Technology (NIST). The ICSD is a comprehensive collection of crystal structure data of inorganic compounds containing more than 140,000 entries and covering the literature from 1915 to the present.",
+    "keyword": [
+      "X ray crystallography",
+      "X ray diffraction",
+      "X rays",
+      "XRD",
+      "absolute configurations",
+      "chemical structures",
+      "crystal data",
+      "crystal structures",
+      "crystallography",
+      "crystals",
+      "defect structures",
+      "diffraction",
+      "disorders",
+      "electron diffractions",
+      "electrons",
+      "identification",
+      "inorganic",
+      "inorganic structures",
+      "magnetic structures",
+      "materials",
+      "metals",
+      "mineral names",
+      "minerals",
+      "mixed  crystal solid solutions",
+      "mixed  crystals",
+      "modulated structures",
+      "neutron diffractions",
+      "neutrons",
+      "nuclear magnetic resonance",
+      "polytype structures",
+      "powder simulations",
+      "power",
+      "powes",
+      "prediction",
+      "rietveld profiles",
+      "simulations",
+      "single crystals",
+      "structure predictions",
+      "structures",
+      "synchroton radiations",
+      "twinned crystals",
+      "visualizations",
+      "x ray diffractions"
+    ],
+    "modified": "2014",
+    "publisher": "National Institute of Standards and Technology",
+    "contactPoint": "National Institute of Standards and Technology, www.nist.gov/srd",
+    "mbox": "data@nist.gov",
+    "identifier": "ECBCC1C130162ED9E04306570681B10728",
+    "accessLevel": "restricted public",
+    "dataDictionary": "http://nist.gov/srd/upload/09-0303-sci_man_ICSD_v1.pdf",
+    "accessLevelComment": "Access to SRD 84 is available for a fee. For more information please visit http://nist.gov/srd/nist84.cfm",
+    "dataQuality": true,
+    "landingPage": "http://nist.gov/srd/nist84.cfm",
+    "programCode": [
+      "006:045"
+    ],
+    "bureauCode": [
+      "006:55"
+    ],
+    "theme": [
+      "materials science"
+    ],
+    "language": [
+      "en"
+    ]
+  }
+]

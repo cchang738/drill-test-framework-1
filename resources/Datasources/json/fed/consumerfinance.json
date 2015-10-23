@@ -1,0 +1,73 @@
+[
+  {
+    "accessLevel": "public", 
+    "accessURL": "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv?accessType=DOWNLOAD", 
+    "accrualPeriodicity": "Daily",
+    "contactPoint": "Matt Bailey", 
+    "dataDictionary": "http://www.consumerfinance.gov/complaintdatabase/technical-documentation/#field-reference", 
+    "description": "These are complaints we\u2019ve received about financial products and services.", 
+    "distribution": [
+        {
+          "accessURL":"https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv?accessType=DOWNLOAD","format":
+          "text/csv"
+        },
+        {  
+          "accessURL":"http://data.consumerfinance.gov/api/views.json","format":"application/json"
+        },
+        {  
+          "accessURL":"http://data.consumerfinance.gov/api/views.xml","format":"application/xml"
+        }
+    ],
+    "format": "text/csv", 
+    "identifier": "CCDB",
+    "keyword": ["consumer","finance","complaint","bank account","bank service","credit card","credit report","debt collection","money transfer","mortgage","student loan","loan"],
+    "landingPage": "http://www.consumerfinance.gov/complaintdatabase",
+    "mbox": "matthew.bailey@cfpb.gov", 
+    "modified": "2013-11-06", 
+    "publisher": "Consumer Financial Protection Bureau", 
+    "spatial": "United States", 
+    "temporal": "2011-12-01/2013-11-06", 
+    "title": "Consumer Complaint Database", 
+    "webService": "http://data.consumerfinance.gov/api/views/x94z-ydhh.json"
+  },
+  {
+    "accessLevel": "public",
+    "accessURL": "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.csv",
+    "accrualPeriodicity": "Annual",
+    "contactPoint": "devops@cfpb.gov",
+    "dataDictionary": "https://api.consumerfinance.gov/data/hmda",
+    "description": "The Home Mortgage Disclosure Act (HMDA) requires many financial institutions to maintain, report, and publicly disclose information about mortgages",
+    "distribution": [
+        {
+            "accessURL": "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.csv",
+            "format": "text/csv"
+        },
+        {
+            "accessURL": "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.json",
+            "format": "application/json"
+        },
+        {
+            "accessURL": "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.xml",
+            "format": "application/xml"
+        }
+    ],
+    "format": "text/csv",
+    "identifier": "hmda_lar",
+    "keyword": [
+        "consumer",
+        "finance",
+        "mortgage",
+        "HMDA",
+        "Home Mortgage Disclosure Act",
+        "loan"
+    ],
+    "landingPage": "http: //www.consumerfinance.gov/hmda/",
+    "mbox": "devops@cfpb.gov",
+    "modified": "2013-09-13",
+    "publisher": "Consumer Financial Protection Bureau",
+    "spatial": "United States",
+    "temporal": "2007-2-01/2012-12-31",
+    "title": "Home Mortgage Disclosure Act Data for the years 2007-2012",
+    "webService": "https://api.consumerfinance.gov/data/hmda/slice/hmda_lar.json"
+}
+]

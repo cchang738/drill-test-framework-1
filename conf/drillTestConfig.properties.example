@@ -5,7 +5,7 @@ DRILLBITS=IPADDR1,IPADDR2,IPADDR3,IPADDR4, ...
 DRILL_HOME=/opt/drill/
 
 # Drill Version
-DRILL_VERSION=1.2.0-SNAPSHOT
+DRILL_VERSION=1.3.0-SNAPSHOT
 
 # Parent directory of test suites. Relative path to the framework directory
 DRILL_TEST_DATA_DIR=resources
@@ -14,16 +14,16 @@ DRILL_TEST_DATA_DIR=resources
 DRILL_OUTPUT_DIR=drill-output
 
 # Hadoop Version (Please specify maven version for Hadoop Project (for groupId=org.apache.hadoop)
-HADOOP_VERSION=version
+HADOOP_VERSION=2.7.1
 
 # Path to where Hadoop binaries are installed
-HADOOP_INSTALL_LOC=/opt/hadoop/hadoop-0.20.2
+HADOOP_INSTALL_LOC=/opt/hadoop/
 
 # Path on the distributed system where test data is to be populated (currently cannot be modified - create the directory if it doesn't exist).
 DRILL_TESTDATA=/drill/testdata
 
 # Zookeeper node IP address with port and path to drill node inside Zookeeper
-ZOOKEEPERS=IPADDR1:5181/drill/drillbits1
+ZOOKEEPERS=IPADDR1:2181/drill/drillbits1
 
 # Zookeeper node IP address 
 DRILL_STORAGE_PLUGIN_SERVER=IPADDR1

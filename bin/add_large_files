@@ -1,2 +1,5 @@
 #!/bin/bash
+bin=`dirname "${BASH_SOURCE-$0}"`
+bin=`cd "$bin">/dev/null; pwd`
+cd ${bin}/../
 for i in `git ls-files --others --exclude-standard`; do find $i -size +100k -exec git lfs track {} \;; done

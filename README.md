@@ -20,8 +20,8 @@ Refer to [Github documentation](https://help.github.com/articles/cloning-a-repos
 ### Configure test environment
  1. The test framework requires a distributed file system such as HDFS or MapR-FS to be configured. Hive and HBase are additional dependencies to run all tests (refer to the example in the Execute Tests section to exclude tests with dependencies).
  2. The test framework expects Drill services to be setup on a clustered environment. Refer to [Drill documentation](http://drill.apache.org/docs/installing-drill-in-distributed-mode) for details on how to setup Drill.
- 3. Copy the `drillTestConfig` file from `framework/src/main/resources` to your home directory as `~/.drillTestConfig`. Edit suitably, following instructions in the file.
- 4. Source `.drillTestConfig`. Confirm `DRILL_HOME` and other required environment variables are set. 
+ 3. Edit `conf/drillTestConfig` to set the appropriate configuration settings for your environment.
+ 4. Start a copy of drill on your system. Once started, execute the following statement to ensure Decimal type is enabled `ALTER SYSTEM SET `planner.enable_decimal_data_type` = true;`
 
 ### Review tests:
 

@@ -3,7 +3,7 @@
   "config" : {
     "type" : "file",
     "enabled" : true,
-    "connection" : "maprfs:///",
+    "connection" : "hdfs://ip-172-31-30-32:54310/",
     "workspaces" : {
       "root" : {
         "location" : "/",

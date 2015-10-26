@@ -71,20 +71,17 @@ public class TestDriver {
     if (fsMode.equals(LOCALFS)) {
       drillTestData = System.getProperty("user.home") + drillTestData;
     }
+    System.out.println("Running in " + fsMode + " file system mode.");
   }
 
   public static void main(String[] args) throws Exception {
-    JCommander jc = null;
+    JCommander jc = new JCommander(OPTIONS);
+    jc.setProgramName("TestDriver");
     try {
-      jc = new JCommander(OPTIONS, args);
-      jc.setProgramName("TestDriver");
+      jc.parse(args);
     } catch (ParameterException e) {
-      System.out.println(e.getMessage());
-      String[] valid = {"-s", "sources", "-g", "groups", "-t", "timeout", "-n", "number of threads",
-    		  "-i", "number of iterations", "-d", "generate data", "-m", "track memory usage",
-    		  "-c", "percent of tests canceled", "-w", "enable write actual query result to file",
-    		  "-h", "--help", "show usage"};
-      new JCommander(OPTIONS, valid).usage();
+      System.out.println("\n" + e.getMessage() + "\n");
+      jc.usage();
 
       System.exit(-1);
     }
@@ -324,7 +321,7 @@ public class TestDriver {
           @Override
           public void run() {
             try {
-              Path src = new Path(CWD + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR"), datasource.src);
+              Path src = new Path(CWD + "/" + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR"), datasource.src);
               Path dest = new Path(drillTestData, datasource.dest);
               hdfsCopy(src, dest, false, fsMode);
             } catch (IOException e) {
@@ -375,7 +372,7 @@ public class TestDriver {
 
   private static void runGenerateScript(DataSource datasource) {
     int exitCode = 0;
-    String command = CWD + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR") + "/" + datasource.src;
+    String command = CWD + "/" + Utils.getDrillTestProperties().get("DRILL_TEST_DATA_DIR") + "/" + datasource.src;
     LOG.info("Running command " + command);
     StringBuilder sb = new StringBuilder();
     try {

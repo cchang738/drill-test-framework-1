@@ -3,8 +3,8 @@
   "config" : {
     "type" : "hbase",
     "config" : {
-      "hbase.zookeeper.quorum" : "localhost",
-      "hbase.zookeeper.property.clientPort" : "5181"
+      "hbase.zookeeper.quorum" : "ip-172-31-30-32",
+      "hbase.zookeeper.property.clientPort" : "2181"
     },
     "size.calculator.enabled" : false,
     "enabled" : true

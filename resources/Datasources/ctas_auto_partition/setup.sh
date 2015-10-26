@@ -1,4 +1,4 @@
-hadoop fs -mkdir /drill/testdata/ctas_auto_partition
+hadoop fs -mkdir /drill/testdata/ctas_auto_partition/tpch_single_partition
 hadoop fs -rmr /drill/testdata/ctas_auto_partition/tpch_single_partition
 hadoop fs -mkdir /drill/testdata/ctas_auto_partition/tpch_single_partition
 hadoop fs -rmr /drill/testdata/ctas_auto_partition/tpch_single_partition1
